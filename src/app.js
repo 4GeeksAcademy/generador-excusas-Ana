@@ -4,9 +4,6 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
-function generator(Array){
-
-}
 
 window.onload = function() {
   //write your code here
@@ -22,6 +19,6 @@ window.onload = function() {
   frase += " " + what[Math.floor(Math.random() * what.length )]
   frase += " " + when[Math.floor(Math.random() * when.length )] + "."
 
-  let miDiv = document.getElementById("excuse");
-  miDiv.innerHTML = "<p> " + frase + " </p>";
+  let parrafo = document.getElementById("excuse");
+  parrafo.innerHTML = "<p> " + frase + " </p>";
 };
