@@ -20,8 +20,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-p{
-    margin: 0;
+#excuse{
+    margin: 10px;
     text-align: center;
     color: whitesmoke;
+    font: 4rem "Fira Sans", sans-serif;
 }
